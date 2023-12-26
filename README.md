@@ -9,15 +9,15 @@ Abilities: pray for you, preach, answer biblical question, provide spiritual ins
 
 ### Introduction
 The figure shows the overall architecture of the Bible Chatbot and Scenario Generation Model.
-![plot](./Figure/overall_fig.pdf)
+![plot](./Figure/overall_fig.png)
 
 The figure shows the text generation Chabot Architecture in first stage.
-![plot](./Figure/Chatbot.pdf)
+![plot](./Figure/Chatbot.png)
 
 
 
 The figure shows the Image generation Architecture in second stage.
-![plot](./Figure/Generation.pdf)
+![plot](./Figure/Generation.png)
 
 
 ### Data Preparation
@@ -36,7 +36,7 @@ prompting:
 
 
 ### Inference with uer interface
-![plot](./Figure/user_interface.pdf)
+![plot](./Figure/user_interface.png)
 
 
 ### Reference Links
