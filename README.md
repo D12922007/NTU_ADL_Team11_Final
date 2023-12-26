@@ -19,3 +19,6 @@ prompting:
 todo:
 1. train
 2. api with image generator
+
+
+![plot](./Figure/overall_fig.png)
