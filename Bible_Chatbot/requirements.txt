@@ -1,0 +1,18 @@
+# This file install the packlage by pip install with python 3.10
+jsons
+argparse
+scikit-learn==1.1.2
+nltk==3.7
+tqdm
+numpy
+pandas
+peft==0.6.0
+transformers==4.34.1
+bitsandbytes==0.41.1
+datasets
+accelerate
+evaluate
+matplotlib
+torch==2.1.0
+torchvision
+torchaudio

@@ -41,7 +41,3 @@ prompting:
 
 ### Reference Links
 1. bible source: http://cc.ee.ntu.edu.tw/~d01941025/bible/Materials.html
-
-todo:
-1. train
-2. api with image generator
