@@ -11,12 +11,12 @@ Abilities: pray for you, preach, answer biblical question, provide spiritual ins
 The figure shows the overall architecture of the Bible Chatbot and Scenario Generation Model.
 ![plot](./Figure/overall_fig.png)
 
-The figure shows the text generation Chabot Architecture.
+The figure shows the text generation Chabot Architecture in first stage.
 ![plot](./Figure/Chatbot.png)
 
 
 
-The figure shows the text generation Chabot Architecture.
+The figure shows the Image generation Architecture in second stage.
 ![plot](./Figure/Generation.png)
 
 
@@ -27,6 +27,15 @@ prompting:
 2. preach: all books
 3. question answering: all books
 4. consult: new testiment books
+
+### Training Text Generation Chabot.
+
+
+
+### Training Image generation Neural Network Model.
+
+
+
 
 ### Reference Links
 1. bible source: http://cc.ee.ntu.edu.tw/~d01941025/bible/Materials.html
