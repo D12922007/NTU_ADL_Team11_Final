@@ -1,6 +1,6 @@
-# NTU_ADL_Team11_Final
+# NTU ADL Team11 Final
 
-# Final_Project
+## Final_Project
 
 ### Description
 Abilities: pray for you, preach, answer biblical question, provide spiritual insights on your situations(consult)
