@@ -35,7 +35,7 @@ prompting:
 ### Training Image generation Neural Network Model
 
 
-### Inference with uer interface
+### Inference pipeline with user interface
 ![plot](./Figure/user_interface.png)
 
 
