@@ -28,13 +28,15 @@ prompting:
 3. question answering: all books
 4. consult: new testiment books
 
-### Training Text Generation Chabot.
+### Training Text Generation Chabot
 
 
 
-### Training Image generation Neural Network Model.
+### Training Image generation Neural Network Model
 
 
+### Inference with uer interface
+![plot](./Figure/user_interface.png)
 
 
 ### Reference Links
