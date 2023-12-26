@@ -22,3 +22,8 @@ todo:
 
 
 ![plot](./Figure/overall_fig.png)
+
+
+![plot](./Figure/Chatbot.png)
+
+![plot](./Figure/Generation.png)
