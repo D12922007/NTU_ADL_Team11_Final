@@ -62,9 +62,18 @@ Next, prepare the webdataset using ptython3 feature2webdataset.py
 
 Download the pre-trained checkpoints from this link extract it into assets/ckpts for zero shot evaluation or finetuning  for on Bible image datasets.
 
+Zeroshot evaluation.
+```
+export EVAL_CKPT="assets/ckpts/imagenet256-450000.ckpt"  # uncomment this to perform evaluation. Otherwise, perform training.
+export OUTPUT_DIR="output_dir/for/this/experiment"
+mkdir -p $OUTPUT_DIR
+
+accelerate launch --num_processes 8 --mixed_precision fp16 train_t2i.py --config=configs/imagenet256_base_vq_jax.py
+
+```
+
 Fine-tuning on ImageNet 256x256.
 ```
-# export EVAL_CKPT="assets/ckpts/imagenet256-450000.ckpt"  # uncomment this to perform evaluation. Otherwise, perform training.
 export OUTPUT_DIR="output_dir/for/this/experiment"
 mkdir -p $OUTPUT_DIR
 
