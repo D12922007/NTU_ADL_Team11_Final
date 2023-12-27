@@ -19,7 +19,7 @@ The Chinese text generation Chabot in first stage is in Bible_Chatbot/ folder.
 The figure shows the text generation Chabot Architecture in first stage.
 ![plot](./Figure/Chatbot.png)
 
-The image generation and visulation part for second stage is in Bible_Chatbot/ folder.
+The image generation and visulation part for second stage is in Text_to_Image/ folder.
 
 The figure shows the Image generation Architecture in second stage.
 ![plot](./Figure/Generation.png)
