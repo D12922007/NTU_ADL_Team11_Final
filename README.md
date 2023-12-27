@@ -50,7 +50,7 @@ NTU_ADL_Team11_Final/
 │  ├─ extract_imagenet_feature.py
 │  ├─ ...
 │  ├─ train_t2i.py
-├─ /Figure
+├─ /Figure                  # Experiment Figure
 
 ```
 ### Introduction
