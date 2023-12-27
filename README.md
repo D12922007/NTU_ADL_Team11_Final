@@ -113,7 +113,7 @@ Next, prepare the webdataset using ```python3 ./feature2webdataset.py```
 ### Training/evaluation Text Generation Chabot
 
 
-Download the Taiwan-LLM-7B-v2.0 pre-trained checkpoints from this [link](https://drive.google.com/file/d/1VzSqlZpwfhNPBltGaFos6Vdst8u2r-2B/view?usp=sharing)
+Download the Taiwan-LLM-7B-v2.0 pre-trained based model from this [link](https://drive.google.com/file/d/1VzSqlZpwfhNPBltGaFos6Vdst8u2r-2B/view?usp=sharing)
 
 **Zero-shot Evaluation**
 
@@ -139,7 +139,7 @@ python3 ./train_qlora_plot.py  # Plot the training curve
 
 ### Training/evaluation Image generation Neural Network Model
 
-Download the pre-trained checkpoints from this [link]() extract it into assets/ for zero shot evaluation or finetuning  for on Bible image datasets.
+Download the pre-trained checkpoints from this [link]() extract it into ```./Bible_Chatbot/assets/``` for zero shot evaluation or finetuning for on Bible image datasets.
 
 **Zero-shot Evaluation**
 
