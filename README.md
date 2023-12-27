@@ -18,7 +18,21 @@ Abilities: pray for you, preach, answer biblical question, provide spiritual ins
 
 **Counsel**: Use the new testament. Given each input segment and situation, he design language model would give some advice for the user’s situation according to the bible segment.
 
- 
+### Structure
+
+my-app/
+├─ node_modules/
+├─ public/
+│  ├─ favicon.ico
+│  ├─ index.html
+│  ├─ robots.txt
+├─ src/
+│  ├─ index.css
+│  ├─ index.js
+├─ .gitignore
+├─ package.json
+├─ README.md
+
 ### Introduction
 The figure shows the overall architecture of the Bible Chatbot and Scenario Generation Model.
 ![plot](./Figure/overall_fig.png)
@@ -40,7 +54,7 @@ sudo apt-get install pytorch torchvision torchaudio cudatoolkit=11.3
 pip3 install accelerate==0.12.0 absl-py ml_collections einops wandb ftfy==6.1.1 transformers==4.23.1 loguru webdataset==0.2.5
 ```
 
-### Structure
+
 
 
 
