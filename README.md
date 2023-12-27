@@ -21,16 +21,27 @@ Abilities: pray for you, preach, answer biblical question, provide spiritual ins
 ### Structure
 
 my-app/
+
 ├─ node_modules/
+
 ├─ public/
+
 │  ├─ favicon.ico
+
 │  ├─ index.html
+
 │  ├─ robots.txt
+
 ├─ src/
+
 │  ├─ index.css
+
 │  ├─ index.js
+
 ├─ .gitignore
+
 ├─ package.json
+
 ├─ README.md
 
 ### Introduction
