@@ -104,8 +104,8 @@ Download the VQGAN modlel weight and the reference statistics for FID from this 
 ImageNet resize to 256x256: python3 extract_imagenet_feature.py /path/to/imagenet/on/local/device
 
 **CC3M:**
-First, prepare some context features for training by running python3 extract_test_prompt_feature.py and python extract_empty_feature.py
-Next, prepare the webdataset using ptython3 feature2webdataset.py
+First, prepare some context features for training by running ```python3 ./extract_test_prompt_feature.py``` and ```python3 ./extract_empty_feature.py```
+Next, prepare the webdataset using ```python3 ./feature2webdataset.py```
 
 
 ### Training/evaluation Text Generation Chabot
