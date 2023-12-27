@@ -207,3 +207,6 @@ Given each segment and a generated situation, the model would advise the user’
 5. Stable Diffusion: https://github.com/CompVis/stable-diffusion
 6. LoRA: Low-Rank Adaptation of Large Language Models: https://arxiv.org/pdf/2106.09685.pdf
 7. QLoRA: Efficient Finetuning of Quantized LLMs: https://github.com/artidoro/qlora
+8. Taming Transformers for High-Resolution Image Synthesis: https://github.com/CompVis/taming-transformers
+
+
