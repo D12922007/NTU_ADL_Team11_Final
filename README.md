@@ -14,10 +14,12 @@ Abilities: pray for you, preach, answer biblical question, provide spiritual ins
 The figure shows the overall architecture of the Bible Chatbot and Scenario Generation Model.
 ![plot](./Figure/overall_fig.png)
 
+The Chinese text generation Chabot in first stage is in Bible_Chatbot/ folder.
+
 The figure shows the text generation Chabot Architecture in first stage.
 ![plot](./Figure/Chatbot.png)
 
-
+The image generation and visulation part for second stage is in Bible_Chatbot/ folder.
 
 The figure shows the Image generation Architecture in second stage.
 ![plot](./Figure/Generation.png)
@@ -27,6 +29,10 @@ The figure shows the Image generation Architecture in second stage.
 
 sudo apt-get install pytorch torchvision torchaudio cudatoolkit=11.3
 pip3 install accelerate==0.12.0 absl-py ml_collections einops wandb ftfy==6.1.1 transformers==4.23.1 loguru webdataset==0.2.5
+
+
+### Structure
+
 
 
 ### Data Preparation:
@@ -64,7 +70,7 @@ Download the pre-trained checkpoints from this link extract it into assets/ckpts
 
 Zero-shot Evaluation.
 ```
-export EVAL_CKPT="assets/ckpts/imagenet256-450000.ckpt"  # uncomment this to perform evaluation. Otherwise, perform training.
+export EVAL_CKPT="assets/ckpts/imagenet256-450000.ckpt"
 export OUTPUT_DIR="output_dir/for/this/experiment"
 mkdir -p $OUTPUT_DIR
 
