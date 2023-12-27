@@ -20,7 +20,7 @@ Abilities: pray for you, preach, answer biblical question, provide spiritual ins
 
 ### Structure
 ```
-my-app/
+NTU_ADL_Team11_Final/
 ├─ Bibel_Chatbot/
 │  ├─ train_qlora.py
 │  ├─ train_qlora_plot.py
