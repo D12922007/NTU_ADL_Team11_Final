@@ -21,25 +21,25 @@ Abilities: pray for you, preach, answer biblical question, provide spiritual ins
 ### Structure
 ```
 NTU_ADL_Team11_Final/
-├─ Bibel_Chatbot/
+├─ Bibel_Chatbot/           # Bible Chatbot Training Related Code
 │  ├─ train_qlora.py
 │  ├─ train_qlora_plot.py
 │  ├─ ppl.py
 │  ├─ private_zero_shot.py
 │  ├─ private_few_shot.py
-│  ├─ ....
+│  ├─ ...
 │  ├─ public_zero_shot.py
 │  ├─ private_few_shot.py
-├─ Data_Generation/
+├─ Data_Generation/         # Bible Chatbot Language Model Generation Model
 │  ├─ dataset/
 │  ├─ utils/
 │  ├─ gen_data.sh
-├─ Demostration/
+├─ Demostration/            # End-to-end Inference Demostration Model 
 │  ├─ text_to_image.py
 │  ├─ context.py
 │  ├─ ...
 │  ├─ CSIE.png
-├─ Text_to_Image/
+├─ Text_to_Image/           # Image Generation Training Model 
 │  ├─ open_clip/
 │  ├─ taming/
 │  ├─ timm/
