@@ -26,10 +26,10 @@ The figure shows the Image generation Architecture in second stage.
 
 
 ### Dependencies
-
+```
 sudo apt-get install pytorch torchvision torchaudio cudatoolkit=11.3
 pip3 install accelerate==0.12.0 absl-py ml_collections einops wandb ftfy==6.1.1 transformers==4.23.1 loguru webdataset==0.2.5
-
+```
 
 ### Structure
 
