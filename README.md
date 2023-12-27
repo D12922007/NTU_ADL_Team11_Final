@@ -44,7 +44,7 @@ prompting:
 .
 Since we used the freeze VQGAN Mode in a portion of our model for super resolution image generation,  we provide our pre trained modle on these task.
 
-Download the VQGAN modlel weight from this link [], and put the unzip VQGAN in ./assets.
+Download the VQGAN modlel weight and the reference statistics for FID from this link [], and put the unzip VQGAN model in ./assets and FID statistics .npz file in assets/fid_stats.
 
 ImageNet:
 ImageNet resize to 256x256: python3 extract_imagenet_feature.py /imagenet/path/on/local
@@ -60,6 +60,7 @@ Next, prepare the webdataset using ptython3 feature2webdataset.py
 
 ### Training Image generation Neural Network Model
 
+Next, download the pre-trained checkpoints from this link ad put into assets/ckpts for zero shot evaluation or finetuning  for on Bible image datasets.
 
 ### Inference with pretrain model
 
