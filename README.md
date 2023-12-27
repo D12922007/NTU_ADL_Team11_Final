@@ -4,7 +4,7 @@
 
 This is a PyTorch implementation of Chinese Bible Chatbot with Visulize Image Generation Model.
 
-The proposed model contains two different stage, the first stage is question answering model and the second stage is image generation model.
+The proposed model contains two different stage, the first stage is question answering model for answering input question and the second stage is image generation model for generating text scenario.
 
 ### Description
 Abilities: pray for you, preach, answer biblical question, provide spiritual insights on your situations(consult)
