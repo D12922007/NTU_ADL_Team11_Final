@@ -97,10 +97,10 @@ Since we used the freeze VQGAN Mode in a portion of our model for super resoluti
 
 Download the VQGAN modlel weight and the reference statistics for FID from this link [], and put the unzip VQGAN model in ./assets and FID statistics .npz file in assets/fid_stats.
 
-ImageNet:
+**ImageNet:**
 ImageNet resize to 256x256: python3 extract_imagenet_feature.py /path/to/imagenet/on/local/device
 
-CC3M:
+**CC3M:**
 First, prepare some context features for training by running python3 extract_test_prompt_feature.py and python extract_empty_feature.py
 Next, prepare the webdataset using ptython3 feature2webdataset.py
 
@@ -113,7 +113,7 @@ Next, prepare the webdataset using ptython3 feature2webdataset.py
 
 Download the pre-trained checkpoints from this link extract it into assets/ckpts for zero shot evaluation or finetuning  for on Bible image datasets.
 
-Zero-shot Evaluation.
+**Zero-shot Evaluation**
 ```
 export EVAL_CKPT="assets/ckpts/imagenet256-450000.ckpt"
 export OUTPUT_DIR="output_dir/for/this/experiment"
@@ -122,7 +122,7 @@ mkdir -p $OUTPUT_DIR
 accelerate launch --num_processes 8 --mixed_precision fp16 train_t2i.py --config=configs/imagenet256_base_vq_jax.py
 ```
 
-Fine-tuning on ImageNet 256x256.
+**Fine-tuning on ImageNet 256x256**
 ```
 export OUTPUT_DIR="output_dir/for/this/experiment"
 mkdir -p $OUTPUT_DIR
