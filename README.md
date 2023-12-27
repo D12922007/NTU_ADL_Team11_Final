@@ -144,8 +144,8 @@ Download the pre-trained checkpoints from this [link]() extract it into ```./Bib
 **Zero-shot Evaluation**
 
 ```
-export EVAL_CKPT="assets/ckpts/imagenet256.ckpt"
-export OUTPUT_DIR="set/the/output_dir/"
+export EVAL_CKPT="./assets/ckpts/imagenet256.ckpt"
+export OUTPUT_DIR="assign/the/output_dir/"
 mkdir -p $OUTPUT_DIR
 
 accelerate launch --num_processes 8 --mixed_precision fp16 train_t2i.py --config=configs/imagenet256_base_vq_jax.py
@@ -167,7 +167,7 @@ accelerate launch --num_processes 8 --mixed_precision fp16 train_t2i.py --config
 We Also provide a pre-trained checkpoints on ImageNet and CC3M.
 
 ```
-export EVAL_CKPT="assets/ckpts/imagenet256-450000.ckpt"
+export EVAL_CKPT="./assets/ckpts/imagenet256-450000.ckpt"
 export OUTPUT_DIR="output_dir/for/this/experiment"
 mkdir -p $OUTPUT_DIR
 
