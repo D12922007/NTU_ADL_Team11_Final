@@ -80,16 +80,18 @@ pip3 install accelerate==0.12.0 absl-py ml_collections einops wandb ftfy==6.1.1 
 
 ### Data Preparation:
 
-
-
 #### Biblechat model:
 
-Use gpt-3.5-turbo,
-prompting:
+Use GPT-3.5-turbo to generate the answer.
+Different Prompting:
 1. pray: would use new testiment books, psalms, proverbs
 2. preach: all books
 3. question answering: all books
 4. consult: new testiment books
+
+```
+bash ./Data_Generation/gen_data.sh
+```
 
 #### Image Generation model:
 
