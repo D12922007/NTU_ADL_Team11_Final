@@ -163,16 +163,16 @@ python3 text_to_image.py
 ### Demostration:
 
 
-![plot](./Figure/q1.png)
+![plot](./Figure/q_1.png)
 
 
-![plot](./Figure/q2.png)
+![plot](./Figure/q_2.png)
 
 
-![plot](./Figure/q3.png)
+![plot](./Figure/q_3.png)
 
 
-![plot](./Figure/q4.png)
+![plot](./Figure/q_4.png)
 
 ### Reference and Useful Links
 1. bible source: http://cc.ee.ntu.edu.tw/~d01941025/bible/Materials.html
