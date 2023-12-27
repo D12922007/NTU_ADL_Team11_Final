@@ -139,7 +139,7 @@ python3 ./train_qlora_plot.py  # Plot the training curve
 
 ### Training/evaluation Image generation Neural Network Model
 
-Download the pre-trained checkpoints from this [link]() extract it into ```./Bible_Chatbot/assets/``` for zero shot evaluation or finetuning for on Bible image datasets.
+Download the pre-trained checkpoints from this [link](https://drive.google.com/file/d/1gVR8d0jOI1HOCDi8hHk7yRzDhEU_dL7O/view?usp=sharing) extract it into ```./Bible_Chatbot/assets/``` for zero shot evaluation or finetuning for on Bible image datasets.
 
 **Zero-shot Evaluation**
 
