@@ -2,7 +2,7 @@
 
 ## Final_Project
 
-This is a PyTorch implementation of Bible Chatbot with Visulize Image Generation Model.
+This is a PyTorch implementation of Chinese Bible Chatbot with Visulize Image Generation Model.
 
 
 ### Description
@@ -41,7 +41,7 @@ prompting:
 4. consult: new testiment books
 
 ## For Image Generation model:
-.
+
 Since we used the freeze VQGAN Mode in a portion of our model for super resolution image generation,  we provide our pre trained modle on these task.
 
 Download the VQGAN modlel weight and the reference statistics for FID from this link [], and put the unzip VQGAN model in ./assets and FID statistics .npz file in assets/fid_stats.
