@@ -105,21 +105,26 @@ First, prepare some context features for training by running python3 extract_tes
 Next, prepare the webdataset using ptython3 feature2webdataset.py
 
 
-### Training Text Generation Chabot
+### Training/evaluation Text Generation Chabot
 
 **Zero-shot Evaluation**
 
-
+```
+python3 ./train_qlora.py
+```
 
 **Fine-tuning on Bible Dataset**
 
+```
 
+```
 
-### Training Image generation Neural Network Model
+### Training/evaluation Image generation Neural Network Model
 
 Download the pre-trained checkpoints from this link extract it into assets/ckpts for zero shot evaluation or finetuning  for on Bible image datasets.
 
 **Zero-shot Evaluation**
+
 ```
 export EVAL_CKPT="assets/ckpts/imagenet256-450000.ckpt"
 export OUTPUT_DIR="output_dir/for/this/experiment"
@@ -129,6 +134,7 @@ accelerate launch --num_processes 8 --mixed_precision fp16 train_t2i.py --config
 ```
 
 **Fine-tuning on ImageNet 256x256**
+
 ```
 export OUTPUT_DIR="output_dir/for/this/experiment"
 mkdir -p $OUTPUT_DIR
@@ -184,3 +190,5 @@ Given each segment and a generated situation, the model would advise the user’
 3. Taiwan-LLM: https://github.com/MiuLab/Taiwan-LLM
 4. ImageNet: A large-scale hierarchical image database: https://ieeexplore.ieee.org/document/5206848
 5. Stable Diffusion: https://github.com/CompVis/stable-diffusion
+6. LoRA: Low-Rank Adaptation of Large Language Models: https://arxiv.org/pdf/2106.09685.pdf
+7. QLoRA: Efficient Finetuning of Quantized LLMs: https://github.com/artidoro/qlora
