@@ -100,7 +100,7 @@ bash ./gen_data.sh
 
 Since we used the freeze VQGAN Mode in a portion of our model for super resolution image generation,  we provide our pre trained modle on these task.
 
-Download the VQGAN modlel weight and the reference statistics for FID from this link, and put the unzip VQGAN model in ```./assets``` and FID statistics ```.npz``` file in ```assets/fid_stats```.
+Download the VQGAN modlel weight and the reference statistics for FID from this [link](https://drive.google.com/file/d/13S_unB87n6KKuuMdyMnyExW0G1kplTbP/view), and put the unzip VQGAN model in ```./assets``` and FID statistics ```.npz``` file in ```assets/fid_stats```.
 
 **ImageNet:**
 ImageNet resize to 256x256: ```python3 extract_imagenet_feature.py /path/to/imagenet/on/local/device```
@@ -111,6 +111,9 @@ Next, prepare the webdataset using ```python3 ./feature2webdataset.py```
 
 
 ### Training/evaluation Text Generation Chabot
+
+
+Download the Taiwan-LLM-7B-v2.0 pre-trained checkpoints from this [link](https://drive.google.com/file/d/1VzSqlZpwfhNPBltGaFos6Vdst8u2r-2B/view?usp=sharing)
 
 **Zero-shot Evaluation**
 
@@ -136,7 +139,7 @@ python3 ./train_qlora_plot.py  # Plot the training curve
 
 ### Training/evaluation Image generation Neural Network Model
 
-Download the pre-trained checkpoints from this link extract it into assets/ckpts for zero shot evaluation or finetuning  for on Bible image datasets.
+Download the pre-trained checkpoints from this [link]() extract it into assets/ for zero shot evaluation or finetuning  for on Bible image datasets.
 
 **Zero-shot Evaluation**
 
