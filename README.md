@@ -60,7 +60,19 @@ Next, prepare the webdataset using ptython3 feature2webdataset.py
 
 ### Training Image generation Neural Network Model
 
-Next, download the pre-trained checkpoints from this link ad put into assets/ckpts for zero shot evaluation or finetuning  for on Bible image datasets.
+Download the pre-trained checkpoints from this link extract it into assets/ckpts for zero shot evaluation or finetuning  for on Bible image datasets.
+
+Fine-tuning on ImageNet 256x256.
+```
+# export EVAL_CKPT="assets/ckpts/imagenet256-450000.ckpt"  # uncomment this to perform evaluation. Otherwise, perform training.
+export OUTPUT_DIR="output_dir/for/this/experiment"
+mkdir -p $OUTPUT_DIR
+
+accelerate launch --num_processes 8 --mixed_precision fp16 train_t2i_discrete_muse.py \
+ --config=configs/imagenet256_base_vq_jax.py
+```
+
+
 
 ### Inference with pretrain model
 
