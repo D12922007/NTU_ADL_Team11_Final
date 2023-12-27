@@ -21,17 +21,37 @@ Abilities: pray for you, preach, answer biblical question, provide spiritual ins
 ### Structure
 ```
 my-app/
-├─ node_modules/
-├─ public/
-│  ├─ favicon.ico
-│  ├─ index.html
-│  ├─ robots.txt
-├─ src/
-│  ├─ index.css
-│  ├─ index.js
-├─ .gitignore
-├─ package.json
-├─ README.md
+├─ Bibel_Chatbot/
+│  ├─ train_qlora.py
+│  ├─ train_qlora_plot.py
+│  ├─ ppl.py
+│  ├─ private_zero_shot.py
+│  ├─ private_few_shot.py
+│  ├─ ....
+│  ├─ public_zero_shot.py
+│  ├─ private_few_shot.py
+├─ Data_Generation/
+│  ├─ dataset/
+│  ├─ utils/
+│  ├─ gen_data.sh
+├─ Demostration/
+│  ├─ text_to_image.py
+│  ├─ context.py
+│  ├─ ...
+│  ├─ CSIE.png
+├─ Text_to_Image/
+│  ├─ open_clip/
+│  ├─ taming/
+│  ├─ timm/
+│  ├─ tools/
+│  ├─ web_img/
+│  ├─ datasets.py
+│  ├─ extract_empty_feature.py
+│  ├─ extract_imagenet_feature.py
+│  ├─ ...
+│  ├─ train_t2i.py
+├─ /Figure
+
 ```
 ### Introduction
 The figure shows the overall architecture of the Bible Chatbot and Scenario Generation Model.
