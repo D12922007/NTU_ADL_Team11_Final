@@ -105,7 +105,7 @@ First, prepare some context features for training by running python3 extract_tes
 Next, prepare the webdataset using ptython3 feature2webdataset.py
 
 
-#### Training/evaluation Text Generation Chabot
+### Training/evaluation Text Generation Chabot
 
 **Zero-shot Evaluation**
 
@@ -129,7 +129,7 @@ python3 ./train_qlora_plot.py  #Plot the training curve
 ```
 
 
-#### Training/evaluation Image generation Neural Network Model
+### Training/evaluation Image generation Neural Network Model
 
 Download the pre-trained checkpoints from this link extract it into assets/ckpts for zero shot evaluation or finetuning  for on Bible image datasets.
 
@@ -154,7 +154,7 @@ accelerate launch --num_processes 8 --mixed_precision fp16 train_t2i.py --config
 
 
 
-#### Inference with pretrain model
+### Inference with pretrain model
 
 We Also provide a pre-trained checkpoints on ImageNet and CC3M.
 
@@ -167,7 +167,7 @@ accelerate launch --num_processes 8 --mixed_precision fp16 train_t2i.py --config
 ```
 
 
-#### Inference Pipeline with User Interface
+### Inference Pipeline with User Interface
 
 ```
 python3 text_to_image.py
