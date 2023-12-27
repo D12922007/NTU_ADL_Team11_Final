@@ -83,7 +83,9 @@ pip3 install accelerate==0.12.0 absl-py ml_collections einops wandb ftfy==6.1.1 
 #### Biblechat model:
 
 Use GPT-3.5-turbo to generate the answer.
+
 Different Prompting:
+
 1. pray: would use new testiment books, psalms, proverbs
 2. preach: all books
 3. question answering: all books
