@@ -180,3 +180,7 @@ Given each segment and a generated situation, the model would advise the user’
 
 ### Reference and Useful Links
 1. Bible source: http://cc.ee.ntu.edu.tw/~d01941025/bible/Materials.html
+2. Muse: Text-to-image generation via masked generative transformers https://arxiv.org/abs/2301.00704
+3. Taiwan-LLM: https://github.com/MiuLab/Taiwan-LLM
+4. ImageNet: A large-scale hierarchical image database: https://ieeexplore.ieee.org/document/5206848
+5. Stable Diffusion: https://github.com/CompVis/stable-diffusion
