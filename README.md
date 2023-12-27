@@ -9,6 +9,16 @@ The proposed model contains two different stage, the first stage is question ans
 ### Description
 Abilities: pray for you, preach, answer biblical question, provide spiritual insights on your situations(consult)
 
+4 kinds of use case:
+Question answering: Use all books of bible. Given each question, answer a corresponding answer.
+
+Preach: Use all books of bible. Given each input segment, the designed language model output a short preach. Basically performs content summarization and elaboration.
+
+Pray: Use the new testament. Given each input segment and a situation, the design language model would pray for the user’s situation according to the bible segment.
+
+Counsel: Use the new testament. Given each input segment and situation, he design language model would give some advice for the user’s situation according to the bible segment.
+
+ 
 ### Introduction
 The figure shows the overall architecture of the Bible Chatbot and Scenario Generation Model.
 ![plot](./Figure/overall_fig.png)
