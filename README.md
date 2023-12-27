@@ -14,12 +14,12 @@ Abilities: pray for you, preach, answer biblical question, provide spiritual ins
 The figure shows the overall architecture of the Bible Chatbot and Scenario Generation Model.
 ![plot](./Figure/overall_fig.png)
 
-The Chinese text generation Chabot in first stage is in ```Bible_Chatbot/``` folder.
+The Chinese text generation Chabot in first stage is in ```./Bible_Chatbot/``` folder.
 
 The figure shows the text generation Chabot Architecture in first stage.
 ![plot](./Figure/Chatbot.png)
 
-The image generation and visulation part for second stage is in ```Text_to_Image/``` folder.
+The image generation and visulation part for second stage is in ```./Text_to_Image/``` folder.
 In this 
 The figure shows the Image generation Architecture in second stage.
 ![plot](./Figure/Generation.png)
