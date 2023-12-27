@@ -110,14 +110,24 @@ Next, prepare the webdataset using ptython3 feature2webdataset.py
 **Zero-shot Evaluation**
 
 ```
+python3 ./private_zero_shot.py  # On private datasets
+python3 ./public_zero_shot.py   # On public datasets
+```
+**Few-shot Evaluation**
+
+```
+python3 ./private_few_shot.py  # On private datasets
+python3 ./public_few_shot.py   # On public datasets
+```
+
+
+**Qlora Fine-tuning on Bible Dataset**
+
+```
 python3 ./train_qlora.py
+python3 ./train_qlora_plot.py  #Plot the training curve
 ```
 
-**Fine-tuning on Bible Dataset**
-
-```
-
-```
 
 ### Training/evaluation Image generation Neural Network Model
 
