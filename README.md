@@ -31,7 +31,7 @@ pip3 install accelerate==0.12.0 absl-py ml_collections einops wandb ftfy==6.1.1 
 
 ### Data Preparation:
 
-## For Biblechat model:
+## Biblechat model:
 
 Use gpt-3.5-turbo,
 prompting:
@@ -40,14 +40,14 @@ prompting:
 3. question answering: all books
 4. consult: new testiment books
 
-## For Image Generation model:
+## Image Generation model:
 
 Since we used the freeze VQGAN Mode in a portion of our model for super resolution image generation,  we provide our pre trained modle on these task.
 
 Download the VQGAN modlel weight and the reference statistics for FID from this link [], and put the unzip VQGAN model in ./assets and FID statistics .npz file in assets/fid_stats.
 
 ImageNet:
-ImageNet resize to 256x256: python3 extract_imagenet_feature.py /imagenet/path/on/local
+ImageNet resize to 256x256: python3 extract_imagenet_feature.py /path/to/imagenet/on/local/device
 
 CC3M:
 First, prepare some context features for training by running python3 extract_test_prompt_feature.py and python extract_empty_feature.py
