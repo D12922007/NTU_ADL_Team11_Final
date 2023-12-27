@@ -103,7 +103,7 @@ Since we used the freeze VQGAN Mode in a portion of our model for super resoluti
 Download the VQGAN modlel weight and the reference statistics for FID from this [link](https://drive.google.com/file/d/13S_unB87n6KKuuMdyMnyExW0G1kplTbP/view), and put the unzip VQGAN model in ```./assets``` and FID statistics ```.npz``` file in ```./assets/fid_stats```.
 
 **ImageNet:**
-ImageNet resize to 256x256: ```python3 extract_imagenet_feature.py /path/to/imagenet/on/local/device```
+ImageNet resize to 256x256: ```python3 ./extract_imagenet_feature.py /path/to/imagenet/on/local/device```
 
 **CC3M:**
 First, prepare some context features for training by running ```python3 ./extract_test_prompt_feature.py``` and ```python3 ./extract_empty_feature.py```
