@@ -124,8 +124,8 @@ python3 ./public_few_shot.py   # On public datasets
 **Qlora Fine-tuning on Bible Dataset**
 
 ```
-python3 ./train_qlora.py
-python3 ./train_qlora_plot.py  #Plot the training curve
+python3 ./train_qlora.py       # Train the qlora model
+python3 ./train_qlora_plot.py  # Plot the training curve
 ```
 
 
