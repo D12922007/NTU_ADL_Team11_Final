@@ -107,6 +107,12 @@ Next, prepare the webdataset using ptython3 feature2webdataset.py
 
 ### Training Text Generation Chabot
 
+**Zero-shot Evaluation**
+
+
+
+**Fine-tuning on Bible Dataset**
+
 
 
 ### Training Image generation Neural Network Model
@@ -136,11 +142,37 @@ accelerate launch --num_processes 8 --mixed_precision fp16 train_t2i.py --config
 
 We Also provide a pre-trained checkpoints on ImageNet and CC3M.
 
+```
+export EVAL_CKPT="assets/ckpts/imagenet256-450000.ckpt"
+export OUTPUT_DIR="output_dir/for/this/experiment"
+mkdir -p $OUTPUT_DIR
+
+accelerate launch --num_processes 8 --mixed_precision fp16 train_t2i.py --config=configs/imagenet256_base_vq_jax.py
+```
 
 
 ### Inference Pipeline with User Interface
+
+```
+python3 text_to_image.py
+```
+
 ![plot](./Figure/user_interface.png)
 
+
+### Demostration:
+
+
+![plot](./Figure/q1.png)
+
+
+![plot](./Figure/q2.png)
+
+
+![plot](./Figure/q3.png)
+
+
+![plot](./Figure/q4.png)
 
 ### Reference and Useful Links
 1. bible source: http://cc.ee.ntu.edu.tw/~d01941025/bible/Materials.html
