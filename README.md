@@ -90,7 +90,8 @@ Different Prompting:
 4. consult: new testiment books
 
 ```
-bash ./Data_Generation/gen_data.sh
+cd ./Data_Generation
+bash ./gen_data.sh
 ```
 
 #### Image Generation model:
