@@ -1,0 +1,72 @@
+<<COMMENT
+CUDA_VISIBLE_DEVICES='' python3 run_train_mask.py --train 'True' --front 'DGCNN' --backend 'SVD' --attention ''
+find . | grep -E "(__pycache__|\.pyc$)" | xargs rm -rf
+CUDA_VISIBLE_DEVICES='' python3 clean.py
+CUDA_VISIBLE_DEVICES='' python3 run_train_mask.py --train 'True' --front 'Self_define_DGCNN' --backend 'SVD' --attention ''
+CUDA_VISIBLE_DEVICES='' python3 clean.py
+find . | grep -E "(__pycache__|\.pyc$)" | xargs rm -rf
+CUDA_VISIBLE_DEVICES='' python3 run_train_mask.py --train 'True' --front 'Self_define_PointNet' --backend 'SVD' --attention ''
+CUDA_VISIBLE_DEVICES='' python3 clean.py
+find . | grep -E "(__pycache__|\.pyc$)" | xargs rm -rf
+CUDA_VISIBLE_DEVICES='' python3 run_train_mask.py --train 'True' --front 'PointNet' --backend 'SVD' --attention ''
+CUDA_VISIBLE_DEVICES='' python3 clean.py
+find . | grep -E "(__pycache__|\.pyc$)" | xargs rm -rf
+CUDA_VISIBLE_DEVICES='' python3 run_train_mask.py --train 'True' --front 'RCAN' --backend 'SVD' --attention ''
+CUDA_VISIBLE_DEVICES='' python3 clean.py
+find . | grep -E "(__pycache__|\.pyc$)" | xargs rm -rf
+sleep 20
+
+
+CUDA_VISIBLE_DEVICES='' python3 run_train_mask.py --train 'True' --front 'DGCNN' --backend 'MLP' --attention ''
+CUDA_VISIBLE_DEVICES='' python3 clean.py
+find . | grep -E "(__pycache__|\.pyc$)" | xargs rm -rf
+CUDA_VISIBLE_DEVICES='' python3 run_train_mask.py --train 'True' --front 'Self_define_DGCNN' --backend 'MLP' --attention ''
+CUDA_VISIBLE_DEVICES='' python3 clean.py
+find . | grep -E "(__pycache__|\.pyc$)" | xargs rm -rf
+CUDA_VISIBLE_DEVICES='' python3 run_train_mask.py --train 'True' --front 'Self_define_PointNet' --backend 'MLP' --attention ''
+CUDA_VISIBLE_DEVICES='' python3 clean.py
+find . | grep -E "(__pycache__|\.pyc$)" | xargs rm -rf
+CUDA_VISIBLE_DEVICES='' python3 run_train_mask.py --train 'True' --front 'PointNet' --backend 'MLP' --attention ''
+CUDA_VISIBLE_DEVICES='' python3 clean.py
+find . | grep -E "(__pycache__|\.pyc$)" | xargs rm -rf]
+COMMENT
+CUDA_VISIBLE_DEVICES='' python3 run_train_mask.py --train 'True' --front 'RCAN' --backend 'MLP' --attention ''
+CUDA_VISIBLE_DEVICES='' python3 clean.py
+find . | grep -E "(__pycache__|\.pyc$)" | xargs rm -rf
+sleep 20
+
+CUDA_VISIBLE_DEVICES='' python3 run_train_mask.py --train 'True' --front 'DGCNN' --backend 'SVD' --attention 'True'
+CUDA_VISIBLE_DEVICES='' python3 clean.py
+find . | grep -E "(__pycache__|\.pyc$)" | xargs rm -rf
+CUDA_VISIBLE_DEVICES='' python3 run_train_mask.py --train 'True' --front 'Self_define_DGCNN' --backend 'SVD' --attention 'True'
+CUDA_VISIBLE_DEVICES='' python3 clean.py
+find . | grep -E "(__pycache__|\.pyc$)" | xargs rm -rf
+CUDA_VISIBLE_DEVICES='' python3 run_train_mask.py --train 'True' --front 'Self_define_PointNet' --backend 'SVD' --attention 'True'
+CUDA_VISIBLE_DEVICES='' python3 clean.py
+find . | grep -E "(__pycache__|\.pyc$)" | xargs rm -rf
+CUDA_VISIBLE_DEVICES='' python3 run_train_mask.py --train 'True' --front 'PointNet' --backend 'SVD' --attention 'True'
+CUDA_VISIBLE_DEVICES='' python3 clean.py
+find . | grep -E "(__pycache__|\.pyc$)" | xargs rm -rf
+<<COMMENT
+CUDA_VISIBLE_DEVICES='' python3 run_train_mask.py --train 'True' --front 'RCAN' --backend 'SVD' --attention 'True'
+CUDA_VISIBLE_DEVICES='' python3 clean.py
+find . | grep -E "(__pycache__|\.pyc$)" | xargs rm -rf
+sleep 20
+
+CUDA_VISIBLE_DEVICES='' python3 run_train_mask.py --train 'True' --front 'DGCNN' --backend 'MLP' --attention 'True'
+CUDA_VISIBLE_DEVICES='' python3 clean.py
+find . | grep -E "(__pycache__|\.pyc$)" | xargs rm -rf
+CUDA_VISIBLE_DEVICES='' python3 run_train_mask.py --train 'True' --front 'Self_define_DGCNN' --backend 'MLP' --attention 'True'
+CUDA_VISIBLE_DEVICES='' python3 clean.py
+find . | grep -E "(__pycache__|\.pyc$)" | xargs rm -rf
+CUDA_VISIBLE_DEVICES='' python3 run_train_mask.py --train 'True' --front 'Self_define_PointNet' --backend 'MLP' --attention 'True'
+CUDA_VISIBLE_DEVICES='' python3 clean.py
+find . | grep -E "(__pycache__|\.pyc$)" | xargs rm -rf
+CUDA_VISIBLE_DEVICES='' python3 run_train_mask.py --train 'True' --front 'PointNet' --backend 'MLP' --attention 'True'
+CUDA_VISIBLE_DEVICES='' python3 clean.py
+find . | grep -E "(__pycache__|\.pyc$)" | xargs rm -rf
+CUDA_VISIBLE_DEVICES='' python3 run_train_mask.py --train 'True' --front 'RCAN' --backend 'MLP' --attention 'True'
+CUDA_VISIBLE_DEVICES='' python3 clean.py
+find . | grep -E "(__pycache__|\.pyc$)" | xargs rm -rf
+sleep 20
+COMMENT
