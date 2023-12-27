@@ -68,8 +68,7 @@ Fine-tuning on ImageNet 256x256.
 export OUTPUT_DIR="output_dir/for/this/experiment"
 mkdir -p $OUTPUT_DIR
 
-accelerate launch --num_processes 8 --mixed_precision fp16 train_t2i.py \
- --config=configs/imagenet256_base_vq_jax.py
+accelerate launch --num_processes 8 --mixed_precision fp16 train_t2i.py --config=configs/imagenet256_base_vq_jax.py
 ```
 
 
