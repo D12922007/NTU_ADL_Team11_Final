@@ -162,19 +162,19 @@ python3 text_to_image.py
 
 ### Demostration:
 
-# Question Answering
+#### Question Answering
 Use all books of bible. Given each segment, the model would answer the corresponding question.
 ![plot](./Figure/q_1.png)
 
-# Preach
+#### Preach
 Use all books of the bible. Given each segment, the model would give a short preach. It performs content summarization and elaboration
 ![plot](./Figure/q_2.png)
 
-# Pray
+#### Pray
 Given each segment and a generated situation, the model would pray for the user’s situation according to the bible segment.
 ![plot](./Figure/q_3.png)
 
-# Counsel
+#### Counsel
 Given each segment and a generated situation, the model would advise the user’s situation according to the bible segment.
 ![plot](./Figure/q_4.png)
 
